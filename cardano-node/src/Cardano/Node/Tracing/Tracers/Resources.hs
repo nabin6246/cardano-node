@@ -1,5 +1,5 @@
 {-# LANGUAGE PackageImports #-}
-module Cardano.TraceDispatcher.Tracers.Resources
+module Cardano.Node.Tracing.Tracers.Resources
   (
     startResourceTracer
   , namesForResources

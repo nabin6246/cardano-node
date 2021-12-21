@@ -7,7 +7,7 @@
 
 {-# OPTIONS_GHC -Wno-orphans  #-}
 
-module Cardano.TraceDispatcher.Tracers.NonP2P
+module Cardano.Node.Tracing.Tracers.NonP2P
   (
     severityIPSubscription
   , namesForIPSubscription

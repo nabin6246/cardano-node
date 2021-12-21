@@ -12,7 +12,7 @@
 
 {-# OPTIONS_GHC -Wno-orphans  #-}
 
-module Cardano.TraceDispatcher.Era.HardFork ()
+module Cardano.Node.Tracing.Era.HardFork ()
   where
 
 import           Cardano.Prelude hiding (All)

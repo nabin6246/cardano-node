@@ -7,7 +7,7 @@
 {-# OPTIONS_GHC -Wno-orphans  #-}
 {-# OPTIONS_GHC -Wno-deprecations  #-}
 
-module Cardano.TraceDispatcher.Tracers.KESInfo
+module Cardano.Node.Tracing.Tracers.KESInfo
   (
     severityKESInfo
   , namesForKESInfo

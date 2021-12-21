@@ -25,7 +25,7 @@ import Cardano.Node.Handlers.Shutdown (ShutdownTrace)
 import Cardano.Node.Startup           (NodeInfo, StartupTrace)
 
 import Cardano.Logging.Resources
-import Cardano.TraceDispatcher.Tracers.Peer (PeerT)
+import Cardano.Node.Tracing.Tracers.Peer (PeerT)
 
 
 data Tracers peer localPeer blk p2p = Tracers

@@ -1,6 +1,6 @@
 {-# LANGUAGE RecordWildCards #-}
 
-module Cardano.TraceDispatcher.Tracers.BlockReplayProgress
+module Cardano.Node.Tracing.Tracers.BlockReplayProgress
   ( severityReplayBlockStats
   , namesForReplayBlockStats
   , withReplayedBlock

@@ -10,7 +10,7 @@
 
 {-# OPTIONS_GHC -Wno-orphans  #-}
 
-module Cardano.TraceDispatcher.Tracers.Consensus
+module Cardano.Node.Tracing.Tracers.Consensus
   (
     severityChainSyncClientEvent
   , namesForChainSyncClientEvent
@@ -76,11 +76,11 @@ import           Text.Show
 import           Cardano.Logging
 import           Cardano.Node.Queries (HasKESInfo (..))
 import           Cardano.Prelude hiding (All, Show, show)
-import           Cardano.TraceDispatcher.Era.Byron ()
-import           Cardano.TraceDispatcher.Era.Shelley ()
-import           Cardano.TraceDispatcher.Formatting ()
-import           Cardano.TraceDispatcher.Render
-import           Cardano.TraceDispatcher.Tracers.StartLeadershipCheck
+import           Cardano.Node.Tracing.Era.Byron ()
+import           Cardano.Node.Tracing.Era.Shelley ()
+import           Cardano.Node.Tracing.Formatting ()
+import           Cardano.Node.Tracing.Render
+import           Cardano.Node.Tracing.Tracers.StartLeadershipCheck
 
 import           Cardano.Protocol.TPraos.OCert (KESPeriod (..))
 

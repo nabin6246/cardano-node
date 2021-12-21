@@ -8,7 +8,7 @@
 
 {-# OPTIONS_GHC -Wno-orphans  #-}
 
-module Cardano.TraceDispatcher.Tracers.P2P
+module Cardano.Node.Tracing.Tracers.P2P
   (
     namesForLocalRootPeers
   , severityLocalRootPeers
@@ -63,8 +63,8 @@ import           Prelude (id, show)
 import           Cardano.Node.Configuration.TopologyP2P ()
 import           Cardano.Tracing.OrphanInstances.Network ()
 
-import           Cardano.TraceDispatcher.Tracers.NodeToNode ()
-import           Cardano.TraceDispatcher.Tracers.NonP2P ()
+import           Cardano.Node.Tracing.Tracers.NodeToNode ()
+import           Cardano.Node.Tracing.Tracers.NonP2P ()
 
 import           Network.Mux (MiniProtocolNum (..))
 import           Ouroboros.Network.ConnectionHandler

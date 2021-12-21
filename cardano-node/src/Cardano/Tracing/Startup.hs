@@ -9,8 +9,8 @@ import           Data.Text (Text)
 
 import           Cardano.Logging (LogFormatting (..))
 import           Cardano.Node.Startup
-import           Cardano.TraceDispatcher.Compat
-import           Cardano.TraceDispatcher.Tracers.Startup
+import           Cardano.Node.Tracing.Compat
+import           Cardano.Node.Tracing.Tracers.Startup
 import           Cardano.Tracing.OrphanInstances.Network ()
 
 import           Cardano.BM.Tracing (HasPrivacyAnnotation (..),

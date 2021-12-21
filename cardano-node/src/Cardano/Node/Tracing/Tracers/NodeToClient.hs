@@ -7,7 +7,7 @@
 
 {-# OPTIONS_GHC -Wno-orphans  #-}
 
-module Cardano.TraceDispatcher.Tracers.NodeToClient
+module Cardano.Node.Tracing.Tracers.NodeToClient
   (
     severityTChainSync
   , namesForTChainSync

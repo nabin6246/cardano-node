@@ -7,8 +7,8 @@ import Data.Text (Text)
 
 import Cardano.Logging (LogFormatting (..))
 import Cardano.Node.Handlers.Shutdown
-import Cardano.TraceDispatcher.Compat
-import Cardano.TraceDispatcher.Tracers.Shutdown
+import Cardano.Node.Tracing.Compat
+import Cardano.Node.Tracing.Tracers.Shutdown
 import Cardano.BM.Tracing (HasPrivacyAnnotation (..),
          HasSeverityAnnotation (..), Severity (..), ToObject (..),
          Transformable (..))

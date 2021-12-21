@@ -13,7 +13,7 @@
 
 {-# OPTIONS_GHC -Wno-orphans  #-}
 
-module Cardano.TraceDispatcher.Era.Shelley ()
+module Cardano.Node.Tracing.Era.Shelley ()
   where
 
 

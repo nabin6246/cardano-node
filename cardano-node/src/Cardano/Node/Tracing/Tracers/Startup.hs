@@ -4,7 +4,7 @@
 {-# LANGUAGE RecordWildCards      #-}
 {-# LANGUAGE UndecidableInstances #-}
 {-# OPTIONS_GHC -Wno-name-shadowing -Wno-orphans #-}
-module Cardano.TraceDispatcher.Tracers.Startup
+module Cardano.Node.Tracing.Tracers.Startup
   ( getStartupInfo
   , namesStartupInfo
   , docStartupInfo

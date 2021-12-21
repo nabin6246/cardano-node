@@ -1,7 +1,7 @@
 {-# LANGUAGE ImportQualifiedPost   #-}
 {-# LANGUAGE LambdaCase            #-}
 
-module Cardano.TraceDispatcher.Compat
+module Cardano.Node.Tracing.Compat
   ( toDetailLevel
   ) where
 

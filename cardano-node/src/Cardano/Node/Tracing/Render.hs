@@ -3,7 +3,7 @@
 
 {-# OPTIONS_GHC -Wno-unused-imports  #-}
 
-module Cardano.TraceDispatcher.Render
+module Cardano.Node.Tracing.Render
   (
   -- renderBlockOrEBB
        renderChunkNo

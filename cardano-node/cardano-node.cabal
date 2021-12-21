@@ -82,30 +82,30 @@ library
                        Cardano.Node.TraceConstraints
                        Cardano.Node.Tracing
                        Cardano.Node.Types
-                       Cardano.TraceDispatcher.API
-                       Cardano.TraceDispatcher.Compat
-                       Cardano.TraceDispatcher.Documentation
-                       Cardano.TraceDispatcher.Era.Byron
-                       Cardano.TraceDispatcher.Era.HardFork
-                       Cardano.TraceDispatcher.Era.Shelley
-                       Cardano.TraceDispatcher.Tracers
-                       Cardano.TraceDispatcher.Tracers.BlockReplayProgress
-                       Cardano.TraceDispatcher.Tracers.ChainDB
-                       Cardano.TraceDispatcher.Tracers.Consensus
-                       Cardano.TraceDispatcher.Tracers.Diffusion
-                       Cardano.TraceDispatcher.Tracers.KESInfo
-                       Cardano.TraceDispatcher.Tracers.StartLeadershipCheck
-                       Cardano.TraceDispatcher.Tracers.ForgingThreadStats
-                       Cardano.TraceDispatcher.Tracers.Resources
-                       Cardano.TraceDispatcher.Tracers.Peer
-                       Cardano.TraceDispatcher.Tracers.Startup
-                       Cardano.TraceDispatcher.Tracers.Shutdown
-                       Cardano.TraceDispatcher.Tracers.P2P
-                       Cardano.TraceDispatcher.Tracers.NonP2P
-                       Cardano.TraceDispatcher.Tracers.NodeToClient
-                       Cardano.TraceDispatcher.Tracers.NodeToNode
-                       Cardano.TraceDispatcher.Formatting
-                       Cardano.TraceDispatcher.Render
+                       Cardano.Node.Tracing.API
+                       Cardano.Node.Tracing.Compat
+                       Cardano.Node.Tracing.Documentation
+                       Cardano.Node.Tracing.Era.Byron
+                       Cardano.Node.Tracing.Era.HardFork
+                       Cardano.Node.Tracing.Era.Shelley
+                       Cardano.Node.Tracing.Tracers
+                       Cardano.Node.Tracing.Tracers.BlockReplayProgress
+                       Cardano.Node.Tracing.Tracers.ChainDB
+                       Cardano.Node.Tracing.Tracers.Consensus
+                       Cardano.Node.Tracing.Tracers.Diffusion
+                       Cardano.Node.Tracing.Tracers.KESInfo
+                       Cardano.Node.Tracing.Tracers.StartLeadershipCheck
+                       Cardano.Node.Tracing.Tracers.ForgingThreadStats
+                       Cardano.Node.Tracing.Tracers.Resources
+                       Cardano.Node.Tracing.Tracers.Peer
+                       Cardano.Node.Tracing.Tracers.Startup
+                       Cardano.Node.Tracing.Tracers.Shutdown
+                       Cardano.Node.Tracing.Tracers.P2P
+                       Cardano.Node.Tracing.Tracers.NonP2P
+                       Cardano.Node.Tracing.Tracers.NodeToClient
+                       Cardano.Node.Tracing.Tracers.NodeToNode
+                       Cardano.Node.Tracing.Formatting
+                       Cardano.Node.Tracing.Render
                        Cardano.Tracing.Config
                        Cardano.Tracing.Metrics
                        Cardano.Tracing.Peer

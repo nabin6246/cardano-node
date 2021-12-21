@@ -6,7 +6,7 @@
 
 {-# OPTIONS_GHC -Wno-orphans  #-}
 
-module Cardano.TraceDispatcher.Tracers.Diffusion
+module Cardano.Node.Tracing.Tracers.Diffusion
   (
     severityMux
   , namesForMux

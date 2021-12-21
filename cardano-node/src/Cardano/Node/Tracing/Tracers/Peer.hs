@@ -3,7 +3,7 @@
 {-# LANGUAGE OverloadedStrings #-}
 {-# LANGUAGE PackageImports #-}
 
-module Cardano.TraceDispatcher.Tracers.Peer
+module Cardano.Node.Tracing.Tracers.Peer
   ( PeerT (..)
   , startPeerTracer
   , namesForPeers

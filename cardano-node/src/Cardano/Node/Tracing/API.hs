@@ -2,7 +2,7 @@
 {-# LANGUAGE MonoLocalBinds #-}
 {-# LANGUAGE PackageImports #-}
 {-# LANGUAGE RankNTypes #-}
-module Cardano.TraceDispatcher.API
+module Cardano.Node.Tracing.API
   (initTraceDispatcher)
 where
 
@@ -33,9 +33,9 @@ import Cardano.Node.Tracing
 import Cardano.Node.Types
 
 import Cardano.Logging hiding (traceWith)
-import Cardano.TraceDispatcher.Tracers
-import Cardano.TraceDispatcher.Tracers.Resources (startResourceTracer)
-import Cardano.TraceDispatcher.Tracers.Peer (startPeerTracer)
+import Cardano.Node.Tracing.Tracers
+import Cardano.Node.Tracing.Tracers.Resources (startResourceTracer)
+import Cardano.Node.Tracing.Tracers.Peer (startPeerTracer)
 
 import Debug.Trace
 

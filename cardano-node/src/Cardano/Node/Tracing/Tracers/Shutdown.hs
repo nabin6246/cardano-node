@@ -3,7 +3,7 @@
 {-# LANGUAGE LambdaCase           #-}
 {-# LANGUAGE UndecidableInstances #-}
 {-# OPTIONS_GHC -Wno-name-shadowing -Wno-orphans #-}
-module Cardano.TraceDispatcher.Tracers.Shutdown
+module Cardano.Node.Tracing.Tracers.Shutdown
   ( ppShutdownTrace
   , namesShutdown
   , docShutdown

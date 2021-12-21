@@ -3,7 +3,7 @@
 
 {-# OPTIONS_GHC -Wno-orphans  #-}
 
-module Cardano.TraceDispatcher.Formatting
+module Cardano.Node.Tracing.Formatting
   (
   ) where
 
@@ -13,7 +13,7 @@ import           Data.Aeson (Value (String), toJSON, (.=))
 import           Cardano.Logging (LogFormatting (..), mkObject)
 import           Cardano.Prelude hiding (Show, show)
 
-import           Cardano.TraceDispatcher.Render (renderHeaderHashForDetails)
+import           Cardano.Node.Tracing.Render (renderHeaderHashForDetails)
 
 import           Ouroboros.Consensus.Block (ConvertRawHash (..), RealPoint,
                      realPointHash, realPointSlot)

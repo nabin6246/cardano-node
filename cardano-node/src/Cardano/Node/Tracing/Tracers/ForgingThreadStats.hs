@@ -2,7 +2,7 @@
 {-# LANGUAGE NamedFieldPuns    #-}
 {-# LANGUAGE RecordWildCards   #-}
 
-module Cardano.TraceDispatcher.Tracers.ForgingThreadStats
+module Cardano.Node.Tracing.Tracers.ForgingThreadStats
   ( ForgingStats (..)
   , ForgeThreadStats (..)
   , forgeThreadStats
@@ -15,7 +15,7 @@ import           Data.Aeson (Value (..), (.=))
 import qualified Data.Map.Strict as Map
 
 import           Cardano.Slotting.Slot (SlotNo (..))
-import           Cardano.TraceDispatcher.Tracers.StartLeadershipCheck
+import           Cardano.Node.Tracing.Tracers.StartLeadershipCheck
                      (ForgeTracerType)
 import           Ouroboros.Consensus.Node.Tracers
 import           Ouroboros.Consensus.Shelley.Node ()

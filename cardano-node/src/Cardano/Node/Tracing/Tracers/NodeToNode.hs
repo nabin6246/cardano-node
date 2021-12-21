@@ -8,7 +8,7 @@
 
 {-# OPTIONS_GHC -Wno-orphans  #-}
 
-module Cardano.TraceDispatcher.Tracers.NodeToNode
+module Cardano.Node.Tracing.Tracers.NodeToNode
   (
     severityTChainSyncNode
   , namesForTChainSyncNode
@@ -41,7 +41,7 @@ import           Network.TypedProtocol.Codec (AnyMessageAndAgency (..),
 import           Text.Show
 
 import           Cardano.Node.Queries (ConvertTxId)
-import           Cardano.TraceDispatcher.Render (renderHeaderHash, renderTxIdForDetails)
+import           Cardano.Node.Tracing.Render (renderHeaderHash, renderTxIdForDetails)
 
 import           Ouroboros.Consensus.Block (ConvertRawHash, GetHeader,
                      HasHeader, Header, getHeader)

@@ -5,7 +5,7 @@
 {-# LANGUAGE QuantifiedConstraints #-}
 {-# LANGUAGE ScopedTypeVariables   #-}
 
-module Cardano.TraceDispatcher.Documentation
+module Cardano.Node.Tracing.Documentation
   ( docTracers
   ) where
 
@@ -19,21 +19,21 @@ import           Cardano.Logging.Resources
 import           Cardano.Logging.Resources.Types
 import           Cardano.Prelude hiding (trace)
 
-import           Cardano.TraceDispatcher.Formatting ()
-import           Cardano.TraceDispatcher.Tracers.BlockReplayProgress
-import           Cardano.TraceDispatcher.Tracers.ChainDB
-import           Cardano.TraceDispatcher.Tracers.Consensus
-import           Cardano.TraceDispatcher.Tracers.Diffusion
-import           Cardano.TraceDispatcher.Tracers.ForgingThreadStats
+import           Cardano.Node.Tracing.Formatting ()
+import           Cardano.Node.Tracing.Tracers.BlockReplayProgress
+import           Cardano.Node.Tracing.Tracers.ChainDB
+import           Cardano.Node.Tracing.Tracers.Consensus
+import           Cardano.Node.Tracing.Tracers.Diffusion
+import           Cardano.Node.Tracing.Tracers.ForgingThreadStats
                      (forgeThreadStats)
-import           Cardano.TraceDispatcher.Tracers.KESInfo
-import           Cardano.TraceDispatcher.Tracers.NodeToClient
-import           Cardano.TraceDispatcher.Tracers.NodeToNode
-import           Cardano.TraceDispatcher.Tracers.NonP2P
-import           Cardano.TraceDispatcher.Tracers.P2P
-import           Cardano.TraceDispatcher.Tracers.Peer
-import           Cardano.TraceDispatcher.Tracers.Shutdown
-import           Cardano.TraceDispatcher.Tracers.Startup
+import           Cardano.Node.Tracing.Tracers.KESInfo
+import           Cardano.Node.Tracing.Tracers.NodeToClient
+import           Cardano.Node.Tracing.Tracers.NodeToNode
+import           Cardano.Node.Tracing.Tracers.NonP2P
+import           Cardano.Node.Tracing.Tracers.P2P
+import           Cardano.Node.Tracing.Tracers.Peer
+import           Cardano.Node.Tracing.Tracers.Shutdown
+import           Cardano.Node.Tracing.Tracers.Startup
 
 import           Cardano.Node.Handlers.Shutdown (ShutdownTrace)
 import           Cardano.Node.Startup

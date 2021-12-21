@@ -10,7 +10,7 @@
 {-# OPTIONS_GHC -Wno-orphans  #-}
 
 
-module Cardano.TraceDispatcher.Tracers.ChainDB
+module Cardano.Node.Tracing.Tracers.ChainDB
   ( severityChainDB
   , namesForChainDBTraceEvents
   , withAddedToCurrentChainEmptyLimited
@@ -28,10 +28,10 @@ import           Text.Show
 
 import           Cardano.Logging
 import           Cardano.Prelude hiding (Show, show, trace)
-import           Cardano.TraceDispatcher.Era.Byron ()
-import           Cardano.TraceDispatcher.Era.Shelley ()
-import           Cardano.TraceDispatcher.Formatting ()
-import           Cardano.TraceDispatcher.Render
+import           Cardano.Node.Tracing.Era.Byron ()
+import           Cardano.Node.Tracing.Era.Shelley ()
+import           Cardano.Node.Tracing.Formatting ()
+import           Cardano.Node.Tracing.Render
 
 import           Ouroboros.Consensus.Block
 import           Ouroboros.Consensus.HeaderValidation (HeaderEnvelopeError (..),

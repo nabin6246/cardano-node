@@ -47,7 +47,9 @@ import           Cardano.Node.NodeAddress
 import           Ouroboros.Network.NodeToNode (DiffusionMode (..))
 
 -- | Errors for the cardano-config module.
-newtype ConfigError = ConfigErrorFileNotFound FilePath
+data ConfigError =
+    ConfigErrorFileNotFound FilePath
+  | ConfigErrorNoEKG
     deriving Show
 
 -- | Filepath of the configuration yaml file. This file determines

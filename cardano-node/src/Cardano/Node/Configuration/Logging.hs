@@ -184,7 +184,7 @@ createLoggingLayer topt ver nodeConfig' p = do
 
   mbEKGServer <- liftIO $ Switchboard.getSbEKGServer switchBoard
   case mbEKGServer of
-    Nothing -> panic "Can't get EKGServer from Switchboard"
+    Nothing -> throwE ConfigErrorNoEKG
     Just sv -> do
       refGauge   <- liftIO $ newMVar Map.empty
       refLabel   <- liftIO $ newMVar Map.empty

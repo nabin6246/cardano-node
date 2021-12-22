@@ -217,13 +217,13 @@ instance FromJSON PartialNodeConfiguration where
       pncLoggingSwitch'  <-                 v .:? "TurnOnLogging" .!= True
       pncLogMetrics      <- Last        <$> v .:? "TurnOnLogMetrics"
       useTraceDispatcher <-                 v .:? "UseTraceDispatcher" .!= False
-      pncTraceConfig     <- if pncLoggingSwitch'
-                            then Last . Just <$>
-                                 traceConfigParser v
-                                 (if useTraceDispatcher
-                                  then TraceDispatcher
-                                  else TracingOn)
-                            else return . Last $ Just TracingOff
+      pncTraceConfig     <- Last . Just <$> if pncLoggingSwitch'
+                                            then
+                                                 traceConfigParser v
+                                                 (if useTraceDispatcher
+                                                  then TraceDispatcher
+                                                  else TracingOn)
+                                            else pure TracingOff
 
       -- Protocol parameters
       protocol <-  v .:? "Protocol" .!= ByronProtocol

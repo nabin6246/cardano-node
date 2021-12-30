@@ -627,7 +627,9 @@ module Cardano.Api (
 
     chainPointToSlotNo,
     chainPointToHeaderHash,
-    makeChainTip
+    makeChainTip,
+    toShelleyTxOutAny,
+
 
   ) where
 
